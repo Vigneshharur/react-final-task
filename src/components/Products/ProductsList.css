@@ -1,0 +1,27 @@
+.products-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.products-list__fallback {
+  color: white;
+  text-align: center;
+}
+
+.products{
+  width: 65%;
+  float: left;
+}
+
+.products-list input{
+  float: right;
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 150px;
+  font-size: 16px;
+}
+
