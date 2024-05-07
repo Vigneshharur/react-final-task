@@ -14,14 +14,67 @@
   float: left;
 }
 
-.products-list input{
+.search-filter{
   float: right;
+  width: 450px;
+}
+
+.products-list input{
+  margin-top: 15px;
   width: 300px;
   height: 35px;
-  margin-top: 15px;
   border-radius: 5px;
   border: none;
   margin-left: 150px;
   font-size: 16px;
+  
 }
 
+.filter-products{
+  width: 100%;
+}
+
+.filter-products input{
+  width: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 180px;
+  margin-top: 20px;
+  font-size: 16px;
+  height: 15px;
+}
+
+.search-filter h3{
+  color: black;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.filter-products span{
+  margin: 0px;
+  color: brown;
+  font-weight: 600;
+  padding: 0px;
+}
+
+.search-filter button{
+  width: 100px;
+  margin-left: 200px;
+}
+
+.clear{
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  border: black solid 1 px;
+  border-radius: 5px;
+  padding: 7px 20px 7px 20px;
+  margin-left: 15px;
+  font-weight: lighter;
+}
+
+.clear:hover{
+  cursor: pointer;
+  border: blue solid 2px;
+}
